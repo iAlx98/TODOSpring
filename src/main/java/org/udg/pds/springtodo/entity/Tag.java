@@ -35,10 +35,10 @@ public class Tag implements Serializable {
   private Long id;
 
   @NotNull
-  private String name;
+    private String name;
 
-  @NotNull
-  private String description;
+    @NotNull
+    private String description;
 
   public String getName() {
     return name;
